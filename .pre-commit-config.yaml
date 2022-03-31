@@ -19,6 +19,6 @@ repos:
       - id: requirements-txt-fixer
       - id: requirements-txt-fixer
   - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.29.0
+    rev: 2ae912999f0d439c1a3e2d548437ffdbeabb521e
     hooks:
-      - id: markdownlint
+      - id: markdownlint-docker
